@@ -115,7 +115,7 @@ class Logement
      */
     public function __construct()
     {
-        $this->commercial = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->commercial = new ArrayCollection();
     }
 
     public function getId(): ?int
