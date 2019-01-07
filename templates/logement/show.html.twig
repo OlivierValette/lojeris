@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Logement{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+
+        <div class="properties">
+
+             {% include 'logement/card.html.twig' with {'logement': logement} only %}
+
+        </div>
+
+    </div>
+
+{% endblock %}

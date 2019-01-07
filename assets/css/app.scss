@@ -4,7 +4,7 @@ $fa-font-path: "~font-awesome/fonts";
 
 body {
     margin: 0;
-    font-family: Roboto, serif;
+    font-family: Asap, serif;
 }
 
 strong {
@@ -34,6 +34,7 @@ footer.site-footer {
 }
 
 .cta-header {
+    margin-top: 10px;
     border-bottom: 1px solid #1396e2;
 }
 
@@ -129,6 +130,7 @@ ul.inline-list li {
     position: relative;
     overflow: hidden;
     height: 250px;
+    width: 250px;
 }
 
 .property img {

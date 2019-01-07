@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Logements disponibles{% endblock %}
+
+{% block body %}
+    <h2>Liste des logements disponibles</h2>
+    <div class="properties">
+
+        {% for logement in logements %}
+            <div class="col-sm-6 col-md-4">
+                {% include 'logement/card.html.twig' with {'logement': logement} only %}
+            </div>
+        {% endfor %}
+
+    </div>
+{% endblock %}
